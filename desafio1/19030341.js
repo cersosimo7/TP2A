@@ -1,2 +1,5 @@
 let data = require('./data');
-console.log(data);
+
+let x = document.getElementsByTagName("li")[0].getAttribute("data-time");
+
+console.log(x);
